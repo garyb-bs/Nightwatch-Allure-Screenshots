@@ -1,0 +1,1 @@
+# Nightwatch-Allure-Screenshots
