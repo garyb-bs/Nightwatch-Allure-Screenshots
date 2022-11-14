@@ -1,0 +1,18 @@
+{
+  "name": "allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch tests/test.js --env chrome "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nightwatch/selenium-server": "^4.5.0",
+    "chromedriver": "^107.0.3",
+    "nightwatch": "^2.5.0",
+    "nightwatch-allure": "^1.2.0"
+  }
+}
