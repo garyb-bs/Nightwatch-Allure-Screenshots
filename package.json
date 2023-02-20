@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch tests/test.js --env chrome "
+    "test": "npx nightwatch tests/test.js --env chrome ",
+    "allure": "allure generate  allure-results/ && allure open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@nightwatch/selenium-server": "^4.5.0",
-    "chromedriver": "^107.0.3",
+    "chromedriver": "^110.0.0",
     "nightwatch": "^2.5.0",
     "nightwatch-allure": "^1.2.0"
   }
